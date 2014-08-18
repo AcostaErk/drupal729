@@ -1,0 +1,8 @@
+img, media {
+  max-width: 100%;
+}
+
+/* No files to import found in partials/components/**\/* */
+body{
+	background: grey;
+}
