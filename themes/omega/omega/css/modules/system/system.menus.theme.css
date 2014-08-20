@@ -13,6 +13,52 @@
   /* LTR */
   /* Menu Item Hierarchy Modifiers */
 }
+
+/*Cambios por Erik Acosta */
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 100%;
+  position: relative;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  background: #353535;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 1px solid #353535;
+  zoom: 1;
+}
+.menu li {
+  display: block;
+  float: right;
+  margin: 0;
+  padding: 0 4px;
+}
+.menu li a {
+  display: block;
+  float: left;
+  color: #999999;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px 7px 20px;
+  border-bottom: 3px solid transparent;
+}
+ 
+.menu li a:hover {
+  color: #F20A0A;
+  border-bottom: 3px solid #00b8fd;
+}
+.menu li.active a {
+  display: inline;
+  border-bottom: 3px solid #00b8fd;
+  float: left;
+  margin: 0;
+}
+
+/* Fin de Cambios Erik Acosta 20 Agosto 2014*/
+
 .menu .expanded {
   list-style-image: url('../../../images/misc/menu-expanded.png?1379458577');
   list-style-type: circle;
